@@ -1,0 +1,243 @@
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 29, in signin
+    json_data = json.dumps(model_to_dict(user), indent=4)
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\forms\models.py", line 107, in model_to_dict
+    opts = instance._meta
+           ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '_meta'
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 29, in signin
+    json_data = json.dumps(model_to_dict(user), indent=4)
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\forms\models.py", line 107, in model_to_dict
+    opts = instance._meta
+           ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '_meta'
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 29, in signin
+    json_data = json.dumps(model_to_dict(user), indent=4)
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\forms\models.py", line 107, in model_to_dict
+    opts = instance._meta
+           ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '_meta'
+User authentication failed. Username: ak
+User authentication failed. Username: a
+User authentication failed. Username: ak
+User authentication failed. Username: Deepak
+User authentication failed. Username: Deepak
+Not Found: /admin/log/log/
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 20, in signin
+    user = User_log.get("first_name")
+           ^^^^^^^^^^^^
+AttributeError: type object 'User_log' has no attribute 'get'
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 20, in signin
+    user = User_log.get["first_name"]
+           ^^^^^^^^^^^^
+AttributeError: type object 'User_log' has no attribute 'get'
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 20, in signin
+    obj = User_log.objects.get(first_name = fname)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+logpage.models.User_log.DoesNotExist: User_log matching query does not exist.
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 17, in signin
+    obj = User_log.objects.get(all())
+                               ^^^^^
+TypeError: all() takes exactly one argument (0 given)
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 17, in signin
+    obj = User_log.objects.get(all())
+                               ^^^^^
+TypeError: all() takes exactly one argument (0 given)
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 22, in signin
+    login(request, obj)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\contrib\auth\__init__.py", line 152, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\contrib\auth\models.py", line 23, in update_last_login
+    user.save(update_fields=["last_login"])
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\db\models\base.py", line 801, in save
+    raise ValueError(
+ValueError: The following fields do not exist in this model, are m2m fields, or are non-concrete fields: last_login
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 22, in signin
+    login(obj)
+TypeError: login() missing 1 required positional argument: 'user'
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 21, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 21, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 21, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 21, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 21, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 22, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 23, in signin
+    if check_password(password, obj.pass1):
+                       ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value
+Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Django\login\login\views.py", line 22, in signin
+    if check_password(password, obj.pass1):
+                                ^^^
+UnboundLocalError: cannot access local variable 'obj' where it is not associated with a value

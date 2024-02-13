@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Signup</title>
+</head>
+
+<body>
+
+<h1>Create user </h1>
+
+<div>
+    {% for x in messages  %}
+
+    <h3>{{x}}<h3>
+    
+    {% endfor %}
+</div>
+
+<div>
+    <form action = "/signin" method = "POST">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <th>Enter the name  <th>
+                <td><input type = "text" name = "username" placeholder = "Enter the User name"></td>
+            </tr>
+
+            <tr>
+                <th>Password<th>
+                <td><input type = "text" name = "pass1" placeholder = "Enter the password"></td>
+            </tr>
+            
+            <tr>
+                <th><th><td><input type = "submit" value = "SignIn"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+
+</html>

@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Signup</title>
+</head>
+
+<body>
+
+<h1>Create user </h1>
+
+<form action = "/signup" method = "POST">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <th>First Name <th>
+            <td><input type = "text" name = "fname"></td>
+        </tr>
+
+        <tr>
+            <th>Last Name  <th>
+            <td><input type = "text" name = "lname"></td>
+        </tr>
+
+        <tr>
+            <th>Email<th>
+            <td><input type = "text" name = "email"></td>
+        </tr>
+
+        <tr>
+            <th>Password<th>
+            <td><input type = "text" name = "pass1"></td>
+        </tr>
+
+        <tr>
+            <th>Confirm Password<th>
+            <td><input type = "text" name = "pass2"></td>
+        </tr>
+        
+        <tr>
+            <th ><th><td><input type = "submit"></td>
+        
+        </tr>
+
+    </table>
+
+</form>
+<div>
+    {% for x in messages  %}
+
+    <h3>{{x}}<h3>
+    
+    {% endfor %}
+</div>
+
+<div>
+    <button><a href = "/" style="text-decoration:none;" ><h4> Back to Home </h4></a></button>
+</div>
+
+
+
+
+</html>
